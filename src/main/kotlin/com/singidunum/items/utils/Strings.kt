@@ -1,4 +1,4 @@
-package com.singidunum.users.utils
+package com.singidunum.items.utils
 
 import java.util.*
 

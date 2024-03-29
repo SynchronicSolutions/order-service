@@ -1,4 +1,4 @@
-package com.singidunum.users.database
+package com.singidunum.items.database
 
 import org.jetbrains.exposed.sql.Database
 import org.springframework.context.annotation.Bean

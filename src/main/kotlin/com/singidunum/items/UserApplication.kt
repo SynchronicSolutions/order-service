@@ -1,4 +1,4 @@
-package com.singidunum.users
+package com.singidunum.items
 
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive

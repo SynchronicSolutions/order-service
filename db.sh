@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-CONTAINER_NAME=users_db
-DB_USER=users_admin
-DB_PASS=users_admin
-DB_NAME=users_db
+CONTAINER_NAME=items_db
+DB_USER=items_admin
+DB_PASS=items_admin
+DB_NAME=items_db
 PG_IMAGE=postgres:14.11
 
 healthcheck() {

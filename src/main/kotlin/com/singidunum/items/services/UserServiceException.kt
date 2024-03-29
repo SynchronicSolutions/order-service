@@ -1,4 +1,4 @@
-package com.singidunum.users.services
+package com.singidunum.items.services
 
 import org.springframework.http.HttpStatus
 import org.springframework.web.server.ResponseStatusException
