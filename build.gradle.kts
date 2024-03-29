@@ -54,9 +54,9 @@ dependencyManagement {
 	}
 }
 
-val jdbcUrl = "jdbc:postgresql://localhost:5432/items_db?sslmode=disable"
-val dbUser = "items_admin"
-val dbPassword = "items_admin"
+val jdbcUrl = "jdbc:postgresql://localhost:5432/orders_db?sslmode=disable"
+val dbUser = "orders_admin"
+val dbPassword = "orders_admin"
 val dbSchema = "public"
 
 tasks {

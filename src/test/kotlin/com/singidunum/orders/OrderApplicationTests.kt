@@ -1,10 +1,10 @@
-package com.singidunum.items
+package com.singidunum.orders
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class ItemApplicationTests {
+class OrderApplicationTests {
 
 	@Test
 	fun contextLoads() {

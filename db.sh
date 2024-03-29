@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-CONTAINER_NAME=items_db
-DB_USER=items_admin
-DB_PASS=items_admin
-DB_NAME=items_db
+CONTAINER_NAME=orders_db
+DB_USER=orders_admin
+DB_PASS=orders_admin
+DB_NAME=orders_db
 PG_IMAGE=postgres:14.11
 
 healthcheck() {
-    until docker exec ${CONTAINER_NAME} pg_isready -U users
+    until docker exec ${CONTAINER_NAME} pg_isready -U orders_db
             do
                 echo "Waiting for ${CONTAINER_NAME}..."
     sleep 2
